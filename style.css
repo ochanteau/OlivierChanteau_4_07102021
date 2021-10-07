@@ -10,7 +10,6 @@ body {
 a,
 button {
   transition: all 0.3s ease-in-out;
-  outline: none !important;
 }
 
 a:hover {
@@ -332,10 +331,10 @@ a:hover {
   text-align: inherit;
 }
 
-.nav > li a:hover,
-.nav > li a:focus {
-  background: transparent;
-}
+/* .nav > li a:hover,
+        .nav > li a:focus {
+        background: transparent;
+        } */
 
 .navbar-toggle {
   margin: 10px 10px 0 0;
@@ -458,10 +457,6 @@ nav .caret {
 .btn-d:focus {
   color: #fff;
   background: rgba(0, 0, 0, 0.3);
-}
-
-button {
-  outline: none !important;
 }
 
 .btn-rd {
@@ -756,7 +751,7 @@ h4 {
 }
 
 .black-background {
-  background-color: rgba(165, 147, 99, 1);
+  background-color: rgb(73, 59, 21);
   padding: 40px 40px 40px 40px;
 }
 
